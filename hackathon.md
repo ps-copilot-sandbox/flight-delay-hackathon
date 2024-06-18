@@ -1,6 +1,6 @@
 # Exploring GitHub Copilot
 
-[GitHub Copilot](https://github.com/features/copilot) is built and designed to be an AI pair programmer. 
+[GitHub Copilot](https://github.com/features/copilot) is built and designed to be an AI pair programmer.
 Based on the context it sees and the code you write it will generate suggestions for the next line, block, function or even class it believes you're writing. 
 It can also answer your questions, and provide bespoke answers for your specific scenario. This allows you to offload tedious tasks, lookup obscure syntax, 
 and generate code from comments, allowing you to stay in the zone and focus on the higher level and more difficult challenges.
@@ -9,8 +9,8 @@ This workshop is created to give you the opportunity to explore GitHub Copilot, 
 
 ## The scenario
 
-You have been provided a [dataset with flight information from the FAA](./data/flights.csv). The dataset contains dates, 
-times and carriers for flights in the US which took place in 2013. You want to build an application which will allow someone to select the day of the week and 
+You have been provided a [dataset with flight information from the FAA](./data/flights.csv). The dataset contains dates,
+times and carriers for flights in the US which took place in 2013. You want to build an application which will allow someone to select the day of the week and
 arrival airport to see the chance their flight will be delayed by more than 15 minutes. You'll do so by walking through the following challenges:
 
 1. Create and export the data and model to support the application
