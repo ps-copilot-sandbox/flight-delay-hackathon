@@ -33,6 +33,6 @@ Given that the workshop is built to allow developers to gain experience with Git
 
 ### Development environment
 
-Developers will also need an environment in which to code. To streamline the process, [a dev container](https://code.visualstudio.com/docs/devcontainers/containers) 
+Developers will also need an environment in which to code. To streamline the process, [a dev container](https://code.visualstudio.com/docs/devcontainers/containers)
 has been [built](./.devcontainer) which includes Anaconda, Postgres, Node.js and .NET. Learners are of course free to install any additional languages, frameworks and
 services they desire. If they are using Visual Studio Code (local or in-browser), it will also automatically install the extensions for GitHub Copilot and GitHub Copilot Chat.
