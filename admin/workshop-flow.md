@@ -21,9 +21,9 @@ Attention should be paid to ensure learners know mentors are available to answer
 
 ## Mentor preparation
 
-Mentors are expected to be able to support learners as they explore the challenges and build their solutions. 
-Learners are allowed to use the languages and frameworks they desire, and are encouraged to follow their imagination. 
-They will also have questions about GitHub Copilot, use cases, and about how to best use the tooling. 
+Mentors are expected to be able to support learners as they explore the challenges and build their solutions.
+Learners are allowed to use the languages and frameworks they desire, and are encouraged to follow their imagination.
+They will also have questions about GitHub Copilot, use cases, and about how to best use the tooling.
 While you do not need to be an expert in every possible approach, the following steps will help prepare you for supporting the event:
 
 1. Complete the [workshop](../content/0-get-started.md) on your own, using the approach which feels most comfortable for you based on your experience. If you like your solution, you can create a PR to include it as a model for learners.
