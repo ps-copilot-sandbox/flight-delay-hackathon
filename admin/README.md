@@ -19,7 +19,7 @@ Because GitHub Copilot is a coding tool, we wanted to provide a scenario which r
 
 To support this style, we've created a workshop in the style of a hackathon. Learners are given a set of [challenges](./content/) based around
 a [dataset with US flight information](../data/). The "green path" involves learners creating a model to predict the chance a flight will be delayed
-more than 15 minutes based on the day of the week and the destination, export the model and a list of airports to expose as an API, and a frontend for users to access the mode.
+more than 15 minutes based on the day of the week and the destination, export the model and a list of airports to expose as an API, and a frontend for users to access the model.
 
 Learners are given the freedom to solve them how they see fit. While [solutions](./possible-solution/) are provided, there isn't a single "right answer." Each challenge puts forth a core requirement to be completed before moving to the next one, with suggestions on possible side quests they could pursue if they wish to dig further into a particular area.
 
