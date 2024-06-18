@@ -19,7 +19,7 @@ You will have successfully completed this challenge after:
 ## Tips
 
 If you're new to data science and machine learning, the first step when working with a new dataset is to explore the data.
-You'll typically start by loading the data into memory, displaying a portion to gain an understanding about how the data is structured,
+You'll typically start by loading the data into memory, displaying a portion of it to gain an understanding about how the data is structured,
 and looking for any issues which need to be cleaned up. (There are always issues which need to be cleaned up.) As these are common tasks, you'll find GitHub Copilot will be able to provide a fair amount of support.
 
 Two popular libraries for these types of tasks are [pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html) and [scikit-learn](https://scikit-learn.org/stable/),
