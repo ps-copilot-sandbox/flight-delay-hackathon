@@ -14,7 +14,7 @@ times and carriers for flights in the US which took place in 2013. You want to b
 arrival airport to see the chance their flight will be delayed by more than 15 minutes. You'll do so by walking through the following challenges:
 
 1. Create and export the data and model to support the application
-2. Create an API to provide a list of airports and their associated ID in the data, and the model
+2. Create an API to provide a list of airports and their associated IDs in the data, and the model
 3. Create a frontend to allow a user to select the day and airport to see the information
 
 ## Building the application
