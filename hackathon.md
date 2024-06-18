@@ -1,8 +1,8 @@
 # Exploring GitHub Copilot
 
 [GitHub Copilot](https://github.com/features/copilot) is built and designed to be an AI pair programmer.
-Based on the context it sees and the code you write it will generate suggestions for the next line, block, function or even class it believes you're writing. 
-It can also answer your questions, and provide bespoke answers for your specific scenario. This allows you to offload tedious tasks, lookup obscure syntax, 
+Based on the context it sees and the code you write it will generate suggestions for the next line, block, function or even class it believes you're writing.
+It can also answer your questions, and provide bespoke answers for your specific scenario. This allows you to offload tedious tasks, lookup obscure syntax,
 and generate code from comments, allowing you to stay in the zone and focus on the higher level and more difficult challenges.
 
 This workshop is created to give you the opportunity to explore GitHub Copilot, to see how to use and interact with it while building an application. A loose structure is provided to create a scenario and give you a starting point, with a series of challenges to guide you through various aspects of coding with GitHub Copilot.
@@ -19,7 +19,7 @@ arrival airport to see the chance their flight will be delayed by more than 15 m
 
 ## Building the application
 
-The goal of the workshop is to create an application which meets the specifications indicated above - a frontend which allows the user to see the chance their flight will be delayed. 
+The goal of the workshop is to create an application which meets the specifications indicated above - a frontend which allows the user to see the chance their flight will be delayed.
 You will notice there is limited guidance about how to actually build it. This is intentional, as we want you to explore GitHub Copilot using tools you're familiar with or want to explore. The best way to learn GitHub Copilot, after all, is to start using it.
 
 As a result, you're free to use frameworks and languages of your choosing. If you want to create a backend using Node.js and a frontend with Vue.js, you're welcome to do that! Want a Windows app? A mobile app? To explore the dataset more and discover new insights? Feel free to do so!
