@@ -17,8 +17,8 @@ The same holds true with GitHub Copilot. A blank page with a 5 word comment like
 
 ## Starting on the right foot
 
-Every developer is familiar with the importance of comment documentation to help developers who'll later support the code (or when you return to it in the future). 
-This holds true with GitHub Copilot as well. As highlighted above, providing GitHub Copilot with a clear idea of what you're trying to accomplish, and how you're trying to do it, 
+Every developer is familiar with the importance of comment documentation to help developers who'll later support the code (or when you return to it in the future).
+This holds true with GitHub Copilot as well. As highlighted above, providing GitHub Copilot with a clear idea of what you're trying to accomplish, and how you're trying to do it,
 will drive better suggestions. Starting a new file (or updating an existing one) with a few sentences describing the tasks at hand will payoff in the long run. You might want to include:
 
 - the frameworks you're using
@@ -43,7 +43,7 @@ It is common for developers to use single-letter variables (`x`, `i`, etc.), or 
 
 ## Defining context
 
-GitHub Copilot uses both the file you're currently working on and the tabs open in your IDE as context. While there are a couple of reasons GitHub Copilot uses open tabs rather than the project structure, 
+GitHub Copilot uses both the file you're currently working on and the tabs open in your IDE as context. While there are a couple of reasons GitHub Copilot uses open tabs rather than the project structure,
 the biggest is because it's most likely to be the relevant context. If you think about how you code you likely naturally open files related to the task you're currently focused on. GitHub Copilot is built this same way.
 
 You can use this functionality to better guide GitHub Copilot towards what you're looking to code and how you're looking to do it. If you have a representative example of a framework you're using, a data model, or an API, you can open that tab for use by GitHub Copilot.
