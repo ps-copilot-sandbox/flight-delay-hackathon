@@ -1,6 +1,8 @@
 # Create a user experience
 
-With the API created it's time to close everything out by creating a frontend application. While the first two exercises have been relatively prescriptive in the frameworks and style, this exercise offers you the ability to choose the direction you'd like to go for creating a frontend. You can create a website using React or Svelte, a mobile app, a Windows app... Whatever you feel most comfortable with! You can also use this as an opportunity to explore a new framework.
+With the API created it's time to close everything out by creating a frontend application. While the first two exercises have been relatively prescriptive in the frameworks and style,
+this exercise offers you the ability to choose the direction you'd like to go for creating a frontend. You can create a website using React or Svelte, a mobile app, a Windows app, or
+whatever you feel most comfortable with! You can also use this as an opportunity to explore a new framework.
 
 ## Defining success
 
