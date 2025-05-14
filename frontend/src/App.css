@@ -1,0 +1,212 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #c1e4e4;
+}
+
+.rldatix-bg {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #c1e4e4 0%, #e6f6fb 100%);
+  color: #044c54;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.rldatix-logo-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #3eccbc 0%, #148c8a 100%);
+  padding: 0.7rem 2rem;
+  box-shadow: 0 2px 8px rgba(4, 76, 84, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.rldatix-logo {
+  height: 44px;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.rldatix-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  background: transparent;
+}
+
+.rldatix-hero-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #044c54;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.rldatix-hero-subtitle {
+  font-size: 1.1rem;
+  color: #148c8a;
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.rldatix-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto 2.5rem auto;
+  width: 100%;
+  max-width: 1000px;
+  gap: 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.rldatix-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(4, 76, 84, 0.13);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 0;
+  border: 1px solid #c1e4e4;
+}
+
+.rldatix-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; /* Reduced spacing */
+}
+
+.rldatix-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem; /* Reduced spacing */
+}
+
+.rldatix-form-group label {
+  font-weight: 600;
+  color: #148c8a;
+  margin-bottom: 0.2rem;
+  font-size: 1.08rem;
+}
+
+.rldatix-select {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1.5px solid #3eccbc;
+  font-size: 1.08rem;
+  color: #044c54;
+  background: #c1e4e4;
+  transition: border 0.2s;
+  font-family: inherit;
+}
+
+.rldatix-select:focus {
+  border: 1.5px solid #148c8a;
+  outline: none;
+  background: #e6f6fb;
+}
+
+.rldatix-btn {
+  background: linear-gradient(90deg, #3eccbc 0%, #148c8a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(62, 204, 188, 0.08);
+  margin-top: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.rldatix-btn:hover {
+  background: #148c8a;
+}
+
+.rldatix-result {
+  background: #e6f6fb;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(4, 76, 84, 0.10);
+  border: 1px solid #c1e4e4;
+  margin-top: 0;
+  min-width: 280px;
+  max-width: 350px;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.rldatix-result h2 {
+  color: #148c8a;
+  margin-bottom: 1rem;
+}
+
+.rldatix-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 24px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.rldatix-badge.delayed {
+  background: #ff4e4e;
+  color: #fff;
+}
+
+.rldatix-badge.caution {
+  background: #ffd600;
+  color: #222;
+}
+
+.rldatix-badge.ontime {
+  background: #3eccbc;
+  color: #fff;
+}
+
+.rldatix-footer {
+  background: #044c54;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0 1rem 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 -2px 8px rgba(4, 76, 84, 0.06);
+  border-top: 1px solid #c1e4e4;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .rldatix-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .rldatix-card, .rldatix-result {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
